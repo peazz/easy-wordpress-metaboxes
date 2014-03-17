@@ -26,7 +26,7 @@ E) $input_type - 'text' or 'select' input type<br />
 
 <b>your final code for a regular 'text input type' should look like this:</b>
 
-$text_box = new wcd_metaboxes;
+$text_box = new wcd_metaboxes;<br />
 $text_box -> set_meta_box('text_box', 'Text Box', 'custom-post-type', 'Enter Text Box Name:', 'text');
 
 <b>your final code for a 'select input type' should look like this:</b>
@@ -40,7 +40,7 @@ $input_options = array(
 		
 );
 
-$select_box = new wcd_metaboxes;
+$select_box = new wcd_metaboxes;<br />
 $select_box -> set_meta_box('select_box', 'Select Box:', 'custom_post_type', 'Select your options', 'select', $input_options);
 	
 	
