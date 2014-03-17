@@ -17,12 +17,12 @@ $init = new wcd_metaboxes;
 
 $init -> set_meta_box( $id, $title, $post_type, $description, $input_type, $input_options  );
 
-A) $ID - This is the blocks unique identified and will also be the database 'key'
-B) $title - The title of the new box
-C) $post_type - 'post' or 'your-custom-post-type'
-D) $description - the meta box description
-E) $input_type - 'text' or 'select' input type
-*D) $input options - If using 'select' input type, pass an array to populate the meta box
+A) $ID - This is the blocks unique identified and will also be the database 'key'<br />
+B) $title - The title of the new box<br />
+C) $post_type - 'post' or 'your-custom-post-type'<br />
+D) $description - the meta box description<br />
+E) $input_type - 'text' or 'select' input type<br />
+*D) $input options - If using 'select' input type, pass an array to populate the meta box<br />
 
 <u>your final code for a regular 'text input type' should look like this:</u>
 
