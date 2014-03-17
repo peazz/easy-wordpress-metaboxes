@@ -17,7 +17,7 @@ $init = new wcd_metaboxes;
 
 $init -> set_meta_box( $id, $title, $post_type, $description, $input_type, $input_options  );
 
-A) $ID - This is the blocks unique identified and will also be the database 'key'<br />
+A) $ID - This is the blocks unique identifier and will also be the database 'key' and the input 'name & id'<br />
 B) $title - The title of the new box<br />
 C) $post_type - 'post' or 'your-custom-post-type'<br />
 D) $description - the meta box description<br />
