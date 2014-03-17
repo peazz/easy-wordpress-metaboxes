@@ -24,12 +24,12 @@ D) $description - the meta box description<br />
 E) $input_type - 'text' or 'select' input type<br />
 *D) $input options - If using 'select' input type, pass an array to populate the meta box<br />
 
-<u>your final code for a regular 'text input type' should look like this:</u>
+<b>your final code for a regular 'text input type' should look like this:</b>
 
 $text_box = new wcd_metaboxes;
 $text_box -> set_meta_box('text_box', 'Text Box', 'custom-post-type', 'Enter Text Box Name:', 'text');
 
-<u>your final code for a 'select input type' should look like this:</u>
+<b>your final code for a 'select input type' should look like this:</b>
 
 $input_options = array(
 	'Option 1',
