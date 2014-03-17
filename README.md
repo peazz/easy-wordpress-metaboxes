@@ -9,7 +9,7 @@ This is a time saving method and can be replicated for custom post types and eve
 
 To use this awesome piece of time saving code for WordPress;
 
-1. Initiate our new class
+<b>1. Initiate our new class</b>
 	
 $init = new wcd_metaboxes;
 
@@ -24,12 +24,12 @@ D) $description - the meta box description
 E) $input_type - 'text' or 'select' input type
 *D) $input options - If using 'select' input type, pass an array to populate the meta box
 
-you final code for a regular 'text input type' should look like this:
+<u>your final code for a regular 'text input type' should look like this:</u>
 
 $text_box = new wcd_metaboxes;
 $text_box -> set_meta_box('text_box', 'Text Box', 'custom-post-type', 'Enter Text Box Name:', 'text');
 
-you final code for a 'select input type' should look like this:
+<u>your final code for a 'select input type' should look like this:</u>
 
 $input_options = array(
 	'Option 1',
