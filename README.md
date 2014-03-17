@@ -13,7 +13,7 @@ To use this awesome piece of time saving code for WordPress;
 	
 $init = new wcd_metaboxes;
 
-2. Pass through variables to the method.
+<b>2. Pass through variables to the method.</b>
 
 $init -> set_meta_box( $id, $title, $post_type, $description, $input_type, $input_options  );
 
